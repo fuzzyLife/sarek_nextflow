@@ -1,0 +1,100 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: HBRRep2_trimmed_1.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.7
+Cutadapt version: 3.4
+Python version: could not detect
+Number of cores used for trimming: 2
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Using Nextera adapter for trimming (count: 11). Second best hit was smallRNA (count: 8)
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Running FastQC on the data once trimming has completed
+Running FastQC with the following extra arguments: -t 6
+Output file will be GZIP compressed
+
+
+This is cutadapt 3.4 with Python 3.9.6
+Command line parameters: -j 2 -e 0.1 -q 20 -O 1 -a CTGTCTCTTATA HBRRep2_trimmed_1.fastq.gz
+Processing reads on 2 cores in single-end mode ...
+Finished in 1.64 s (11 µs/read; 5.30 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                 144,826
+Reads with adapters:                    51,587 (35.6%)
+Reads written (passing filters):       144,826 (100.0%)
+
+Total basepairs processed:    14,482,600 bp
+Quality-trimmed:                  74,117 bp (0.5%)
+Total written (filtered):     14,335,141 bp (99.0%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 51587 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 20.3%
+  C: 26.3%
+  G: 27.3%
+  T: 26.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	37586	36206.5	0	37586
+2	9963	9051.6	0	9963
+3	3059	2262.9	0	3059
+4	631	565.7	0	631
+5	174	141.4	0	174
+6	113	35.4	0	113
+7	11	8.8	0	11
+8	2	2.2	0	2
+9	4	0.6	0	1 3
+10	2	0.1	1	0 2
+11	1	0.0	1	0 1
+13	1	0.0	1	1
+14	2	0.0	1	0 2
+15	1	0.0	1	1
+17	2	0.0	1	1 1
+18	1	0.0	1	0 1
+20	1	0.0	1	0 1
+22	1	0.0	1	0 1
+24	1	0.0	1	0 1
+26	1	0.0	1	0 1
+27	1	0.0	1	0 1
+33	1	0.0	1	1
+34	1	0.0	1	0 1
+37	1	0.0	1	0 1
+39	1	0.0	1	1
+42	1	0.0	1	1
+52	2	0.0	1	0 2
+53	1	0.0	1	0 1
+65	1	0.0	1	0 1
+75	1	0.0	1	0 1
+76	2	0.0	1	2
+78	1	0.0	1	0 1
+79	1	0.0	1	0 1
+80	1	0.0	1	0 1
+86	1	0.0	1	0 1
+89	1	0.0	1	0 1
+90	1	0.0	1	0 1
+92	2	0.0	1	1 1
+93	2	0.0	1	0 2
+96	1	0.0	1	1
+98	3	0.0	1	0 3
+99	2	0.0	1	1 1
+100	1	0.0	1	0 1
+
+RUN STATISTICS FOR INPUT FILE: HBRRep2_trimmed_1.fastq.gz
+=============================================
+144826 sequences processed in total
+

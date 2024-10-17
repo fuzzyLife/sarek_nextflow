@@ -1,0 +1,7 @@
+Sample	Known Splicing Events	Partial Novel Splicing Events	Novel Splicing Events
+HBRRep1	23295	156	38
+HBRRep2	28155	159	83
+HBRRep3	25109	163	53
+UHRRep1	45598	248	660
+UHRRep2	29367	159	415
+UHRRep3	37211	169	662

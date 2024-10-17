@@ -1,0 +1,7 @@
+Sample	snRNA	unprocessed_pseudogene	protein_coding	processed_pseudogene	rRNA	lincRNA	antisense	processed_transcript	sense_intronic	transcribed_unprocessed_pseudogene	transcribed_processed_pseudogene	IG_V_pseudogene	sense_overlapping	TEC	misc_RNA	miRNA	scaRNA	unitary_pseudogene	snoRNA	IG_V_gene	IG_J_gene	IG_C_gene	IG_C_pseudogene	polymorphic_pseudogene
+HBRRep1	2.0	4.0	93883.0	64.0	0.0	849.0	554.0	113.0	58.0	388.0	0.0	0.0	207.0	19.0	284.0	8.0	0.0	32.0	2.0	3.0	0.0	0.0	0.0	3.0
+HBRRep2	2.0	8.0	115280.0	91.0	0.0	998.0	669.0	173.0	92.0	462.0	1.0	0.0	264.0	36.0	314.0	7.0	0.0	17.0	1.0	8.0	0.0	0.0	0.0	8.0
+HBRRep3	0.0	6.0	102736.0	86.0	0.0	925.0	574.0	164.0	72.0	414.0	0.0	0.0	202.0	16.0	228.0	11.0	0.0	22.0	0.0	4.0	0.0	0.0	0.0	6.0
+UHRRep1	1.0	21.0	182382.0	88.0	0.0	624.0	893.0	313.0	232.0	526.0	9.0	0.0	186.0	30.0	250.0	13.0	0.0	1.0	7.0	184.0	0.0	958.0	1.0	1.0
+UHRRep2	2.0	26.0	120097.0	79.0	1.0	527.0	651.0	249.0	134.0	379.0	4.0	7.0	138.0	29.0	409.0	5.0	0.0	4.0	5.0	162.0	0.0	531.0	0.0	3.0
+UHRRep3	2.0	15.0	149226.0	101.0	0.0	524.0	660.0	278.0	148.0	425.0	9.0	0.0	120.0	23.0	373.0	7.0	0.0	3.0	2.0	192.0	0.0	670.0	3.0	7.0

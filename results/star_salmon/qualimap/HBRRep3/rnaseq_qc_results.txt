@@ -1,0 +1,56 @@
+RNA-Seq QC report
+-----------------------------------
+
+>>>>>>> Input
+
+    bam file = HBRRep3.markdup.sorted.bam
+    gff file = chr22_with_ERCC92.filtered.gtf
+    counting algorithm = uniquely-mapped-reads
+    protocol = strand-specific-reverse
+    5'-3' bias region size = 100
+    5'-3' bias number of top transcripts = 1000
+
+
+>>>>>>> Reads alignment
+
+    reads aligned (left/right) = 129,258 / 129,258
+    read pairs aligned  = 129,257
+    total alignments = 261,062
+    secondary alignments = 2,546
+    non-unique alignments = 4,262
+    aligned to genes  = 204,014
+    ambiguous alignments = 2,822
+    no feature assigned = 49,964
+    not aligned = 0
+
+
+>>>>>>> Reads genomic origin
+
+    exonic =  204,014 (80.33%)
+    intronic = 44,682 (17.59%)
+    intergenic = 5,282 (2.08%)
+    overlapping exon = 3,939 (1.55%)
+
+
+>>>>>>> Transcript coverage profile
+
+    5' bias = 0.7
+    3' bias = 0.57
+    5'-3' bias = 1.37
+
+
+>>>>>>> Junction analysis
+
+    reads at junctions = 25,684
+
+    ACCT : 4.88%
+    AGGT : 4.23%
+    TCCT : 3.82%
+    ATCT : 3.68%
+    AGGA : 3.38%
+    AGCT : 3.26%
+    CCCT : 3.15%
+    GCCT : 3.15%
+    AGAT : 2.67%
+    AGGC : 2.06%
+    TGCT : 1.97%

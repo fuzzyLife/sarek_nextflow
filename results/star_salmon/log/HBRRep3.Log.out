@@ -1,0 +1,297 @@
+STAR version=2.7.10a
+STAR compilation time,server,dir=2022-01-14T18:50:00-05:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+STAR git: On branch master ; commit ae26add7ea1724f3281ec8abedb71bcff6a4ae73 ; diff files: CHANGES.md README.md RELEASEnotes.md doc/STARmanual.pdf extras/doc-latex/STARmanual.tex extras/doc-latex/convertParDefToLatexTable.awk extras/doc-latex/parametersDefault.tex extras/docker/Dockerfile source/VERSION 
+##### Command Line:
+STAR --genomeDir star --readFilesIn input1/HBRRep3_trimmed_1_val_1.fq.gz input2/HBRRep3_trimmed_2_val_2.fq.gz --runThreadN 6 --outFileNamePrefix HBRRep3. --sjdbGTFfile chr22_with_ERCC92.filtered.gtf --outSAMattrRGline ID:HBRRep3 SM:HBRRep3 --quantMode TranscriptomeSAM --twopassMode Basic --outSAMtype BAM Unsorted --readFilesCommand zcat --runRNGseed 0 --outFilterMultimapNmax 20 --alignSJDBoverhangMin 1 --outSAMattributes NH HI AS NM MD --quantTranscriptomeBan Singleend --outSAMstrandField intronMotif
+##### Initial USER parameters from Command Line:
+outFileNamePrefix                 HBRRep3.
+###### All USER parameters from Command Line:
+genomeDir                     star     ~RE-DEFINED
+readFilesIn                   input1/HBRRep3_trimmed_1_val_1.fq.gz   input2/HBRRep3_trimmed_2_val_2.fq.gz        ~RE-DEFINED
+runThreadN                    6     ~RE-DEFINED
+outFileNamePrefix             HBRRep3.     ~RE-DEFINED
+sjdbGTFfile                   chr22_with_ERCC92.filtered.gtf     ~RE-DEFINED
+outSAMattrRGline              ID:HBRRep3   SM:HBRRep3        ~RE-DEFINED
+quantMode                     TranscriptomeSAM        ~RE-DEFINED
+twopassMode                   Basic     ~RE-DEFINED
+outSAMtype                    BAM   Unsorted        ~RE-DEFINED
+readFilesCommand              zcat        ~RE-DEFINED
+runRNGseed                    0     ~RE-DEFINED
+outFilterMultimapNmax         20     ~RE-DEFINED
+alignSJDBoverhangMin          1     ~RE-DEFINED
+outSAMattributes              NH   HI   AS   NM   MD        ~RE-DEFINED
+quantTranscriptomeBan         Singleend     ~RE-DEFINED
+outSAMstrandField             intronMotif     ~RE-DEFINED
+##### Finished reading parameters from all sources
+
+##### Final user re-defined parameters-----------------:
+runThreadN                        6
+runRNGseed                        0
+genomeDir                         star
+readFilesIn                       input1/HBRRep3_trimmed_1_val_1.fq.gz   input2/HBRRep3_trimmed_2_val_2.fq.gz   
+readFilesCommand                  zcat   
+outFileNamePrefix                 HBRRep3.
+outSAMtype                        BAM   Unsorted   
+outSAMstrandField                 intronMotif
+outSAMattributes                  NH   HI   AS   NM   MD   
+outSAMattrRGline                  ID:HBRRep3   SM:HBRRep3   
+outFilterMultimapNmax             20
+alignSJDBoverhangMin              1
+sjdbGTFfile                       chr22_with_ERCC92.filtered.gtf
+quantMode                         TranscriptomeSAM   
+quantTranscriptomeBan             Singleend
+twopassMode                       Basic
+
+-------------------------------
+##### Final effective command line:
+STAR   --runThreadN 6   --runRNGseed 0   --genomeDir star   --readFilesIn input1/HBRRep3_trimmed_1_val_1.fq.gz   input2/HBRRep3_trimmed_2_val_2.fq.gz      --readFilesCommand zcat      --outFileNamePrefix HBRRep3.   --outSAMtype BAM   Unsorted      --outSAMstrandField intronMotif   --outSAMattributes NH   HI   AS   NM   MD      --outSAMattrRGline ID:HBRRep3   SM:HBRRep3      --outFilterMultimapNmax 20   --alignSJDBoverhangMin 1   --sjdbGTFfile chr22_with_ERCC92.filtered.gtf   --quantMode TranscriptomeSAM      --quantTranscriptomeBan Singleend   --twopassMode Basic
+----------------------------------------
+
+Number of fastq files for each mate = 1
+
+   Input read files for mate 1 :
+-rw-r--r--    1 1000     1000       7327141 Oct 17 11:52 input1/HBRRep3_trimmed_1_val_1.fq.gz
+
+   readsCommandsFile:
+exec > "HBRRep3._STARtmp/tmp.fifo.read1"
+echo FILE 0
+zcat      "input1/HBRRep3_trimmed_1_val_1.fq.gz"
+
+
+   Input read files for mate 2 :
+-rw-r--r--    1 1000     1000       7730511 Oct 17 11:52 input2/HBRRep3_trimmed_2_val_2.fq.gz
+
+   readsCommandsFile:
+exec > "HBRRep3._STARtmp/tmp.fifo.read2"
+echo FILE 0
+zcat      "input2/HBRRep3_trimmed_2_val_2.fq.gz"
+
+WARNING --outSAMattrRG defines a read group, therefore STAR will output RG attribute
+WARNING --outSAMstrandField=intronMotif, therefore STAR will output XS attribute
+ParametersSolo: --soloCellFilterType CellRanger2.2 filtering parameters:  3000 0.99 10
+Finished loading and checking parameters
+Reading genome generation parameters:
+### STAR   --runMode genomeGenerate      --runThreadN 6   --genomeDir star/   --genomeFastaFiles chr22_with_ERCC92.fa      --genomeSAindexNbases 12   --limitGenomeGenerateRAM 17079869184   --sjdbGTFfile chr22_with_ERCC92.filtered.gtf
+### GstrandBit=32
+versionGenome                 2.7.4a     ~RE-DEFINED
+genomeType                    Full     ~RE-DEFINED
+genomeFastaFiles              chr22_with_ERCC92.fa        ~RE-DEFINED
+genomeSAindexNbases           12     ~RE-DEFINED
+genomeChrBinNbits             18     ~RE-DEFINED
+genomeSAsparseD               1     ~RE-DEFINED
+genomeTransformType           None     ~RE-DEFINED
+genomeTransformVCF            -     ~RE-DEFINED
+sjdbOverhang                  100     ~RE-DEFINED
+sjdbFileChrStartEnd           -        ~RE-DEFINED
+sjdbGTFfile                   chr22_with_ERCC92.filtered.gtf     ~RE-DEFINED
+sjdbGTFchrPrefix              -     ~RE-DEFINED
+sjdbGTFfeatureExon            exon     ~RE-DEFINED
+sjdbGTFtagExonParentTranscripttranscript_id     ~RE-DEFINED
+sjdbGTFtagExonParentGene      gene_id     ~RE-DEFINED
+sjdbInsertSave                Basic     ~RE-DEFINED
+genomeFileSizes               76508020   336350292        ~RE-DEFINED
+Genome version is compatible with current STAR
+Number of real (reference) chromosomes= 93
+1	22	50818468	0
+2	ERCC-00002	1061	50855936
+3	ERCC-00003	1023	51118080
+4	ERCC-00004	523	51380224
+5	ERCC-00009	984	51642368
+6	ERCC-00012	994	51904512
+7	ERCC-00013	808	52166656
+8	ERCC-00014	1957	52428800
+9	ERCC-00016	844	52690944
+10	ERCC-00017	1136	52953088
+11	ERCC-00019	644	53215232
+12	ERCC-00022	751	53477376
+13	ERCC-00024	536	53739520
+14	ERCC-00025	1994	54001664
+15	ERCC-00028	1130	54263808
+16	ERCC-00031	1138	54525952
+17	ERCC-00033	2022	54788096
+18	ERCC-00034	1019	55050240
+19	ERCC-00035	1130	55312384
+20	ERCC-00039	740	55574528
+21	ERCC-00040	744	55836672
+22	ERCC-00041	1122	56098816
+23	ERCC-00042	1023	56360960
+24	ERCC-00043	1023	56623104
+25	ERCC-00044	1156	56885248
+26	ERCC-00046	522	57147392
+27	ERCC-00048	992	57409536
+28	ERCC-00051	274	57671680
+29	ERCC-00053	1023	57933824
+30	ERCC-00054	274	58195968
+31	ERCC-00057	1021	58458112
+32	ERCC-00058	1136	58720256
+33	ERCC-00059	525	58982400
+34	ERCC-00060	523	59244544
+35	ERCC-00061	1136	59506688
+36	ERCC-00062	1023	59768832
+37	ERCC-00067	644	60030976
+38	ERCC-00069	1137	60293120
+39	ERCC-00071	642	60555264
+40	ERCC-00073	603	60817408
+41	ERCC-00074	522	61079552
+42	ERCC-00075	1023	61341696
+43	ERCC-00076	642	61603840
+44	ERCC-00077	273	61865984
+45	ERCC-00078	993	62128128
+46	ERCC-00079	644	62390272
+47	ERCC-00081	534	62652416
+48	ERCC-00083	1022	62914560
+49	ERCC-00084	994	63176704
+50	ERCC-00085	844	63438848
+51	ERCC-00086	1020	63700992
+52	ERCC-00092	1124	63963136
+53	ERCC-00095	521	64225280
+54	ERCC-00096	1107	64487424
+55	ERCC-00097	523	64749568
+56	ERCC-00098	1143	65011712
+57	ERCC-00099	1350	65273856
+58	ERCC-00104	2022	65536000
+59	ERCC-00108	1022	65798144
+60	ERCC-00109	536	66060288
+61	ERCC-00111	994	66322432
+62	ERCC-00112	1136	66584576
+63	ERCC-00113	840	66846720
+64	ERCC-00116	1991	67108864
+65	ERCC-00117	1136	67371008
+66	ERCC-00120	536	67633152
+67	ERCC-00123	1022	67895296
+68	ERCC-00126	1118	68157440
+69	ERCC-00130	1059	68419584
+70	ERCC-00131	771	68681728
+71	ERCC-00134	274	68943872
+72	ERCC-00136	1033	69206016
+73	ERCC-00137	537	69468160
+74	ERCC-00138	1024	69730304
+75	ERCC-00142	493	69992448
+76	ERCC-00143	784	70254592
+77	ERCC-00144	538	70516736
+78	ERCC-00145	1042	70778880
+79	ERCC-00147	1023	71041024
+80	ERCC-00148	494	71303168
+81	ERCC-00150	743	71565312
+82	ERCC-00154	537	71827456
+83	ERCC-00156	494	72089600
+84	ERCC-00157	1019	72351744
+85	ERCC-00158	1027	72613888
+86	ERCC-00160	743	72876032
+87	ERCC-00162	523	73138176
+88	ERCC-00163	543	73400320
+89	ERCC-00164	1022	73662464
+90	ERCC-00165	872	73924608
+91	ERCC-00168	1024	74186752
+92	ERCC-00170	1023	74448896
+93	ERCC-00171	505	74711040
+--sjdbOverhang = 100 taken from the generated genome
+Started loading the genome: Thu Oct 17 11:54:39 2024
+
+Genome: size given as a parameter = 76508020
+SA: size given as a parameter = 336350292
+SAindex: size given as a parameter = 1
+Read from SAindex: pGe.gSAindexNbases=12  nSAi=22369620
+nGenome=76508020;  nSAbyte=336350292
+GstrandBit=32   SA number of indices=81539464
+Shared memory is not used for genomes. Allocated a private copy of the genome.
+Genome file size: 76508020 bytes; state: good=1 eof=0 fail=0 bad=0
+Loading Genome ... done! state: good=1 eof=0 fail=0 bad=0; loaded 76508020 bytes
+SA file size: 336350292 bytes; state: good=1 eof=0 fail=0 bad=0
+Loading SA ... done! state: good=1 eof=0 fail=0 bad=0; loaded 336350292 bytes
+Loading SAindex ... done: 97867203 bytes
+Finished loading the genome: Thu Oct 17 11:54:39 2024
+
+Processing splice junctions database sjdbN=7636,   pGe.sjdbOverhang=100 
+alignIntronMax=alignMatesGapMax=0, the max intron size will be approximately determined by (2^winBinNbits)*winAnchorDistNbins=589824
+Oct 17 11:54:39   Loaded database junctions from the generated genome star//sjdbList.out.tab: 7636 total junctions
+
+Oct 17 11:54:39 ..... processing annotations GTF
+Processing pGe.sjdbGTFfile=chr22_with_ERCC92.filtered.gtf, found:
+		4564 transcripts
+		26155 exons (non-collapsed)
+		7640 collapsed junctions
+Total junctions: 15276
+Oct 17 11:54:40 ..... finished GTF processing
+
+Oct 17 11:54:40   Finished preparing junctions
+Oct 17 11:54:40 ..... inserting junctions into the genome indices
+Oct 17 11:54:40   Finished SA search: number of new junctions=0, old junctions=7636
+Oct 17 11:54:40   Finished sorting SA indicesL nInd=0
+Genome size with junctions=76508020  74973184   1534836
+GstrandBit1=32   GstrandBit=32
+Oct 17 11:54:41   Finished inserting junction indices
+Oct 17 11:54:41   Finished SAi
+Oct 17 11:54:41 ..... finished inserting junctions into genome
+Created thread # 1
+Starting to map file # 0
+mate 1:   input1/HBRRep3_trimmed_1_val_1.fq.gz
+mate 2:   input2/HBRRep3_trimmed_2_val_2.fq.gz
+Created thread # 2
+Created thread # 3
+Created thread # 4
+Created thread # 5
+Thread #3 end of input stream, nextChar=-1
+Completed: thread #4
+Completed: thread #0
+Completed: thread #5
+Completed: thread #3
+Completed: thread #2
+Completed: thread #1
+Joined thread # 1
+Joined thread # 2
+Joined thread # 3
+Joined thread # 4
+Joined thread # 5
+Oct 17 11:54:47   Loaded database junctions from the 1st pass file: HBRRep3._STARpass1//SJ.out.tab: 18575 total junctions
+
+Oct 17 11:54:47   Finished preparing junctions
+Oct 17 11:54:47 ..... inserting junctions into the genome indices
+Oct 17 11:54:47   Finished SA search: number of new junctions=191, old junctions=7636
+Oct 17 11:54:47   Finished sorting SA indicesL nInd=76400
+Genome size with junctions=76546411  74973184   1573227
+GstrandBit1=32   GstrandBit=32
+Oct 17 11:54:48   Finished inserting junction indices
+Oct 17 11:54:48   Finished SAi
+Oct 17 11:54:48 ..... finished inserting junctions into genome
+
+   Input read files for mate 1 :
+-rw-r--r--    1 1000     1000       7327141 Oct 17 11:52 input1/HBRRep3_trimmed_1_val_1.fq.gz
+
+   readsCommandsFile:
+exec > "HBRRep3._STARtmp/tmp.fifo.read1"
+echo FILE 0
+zcat      "input1/HBRRep3_trimmed_1_val_1.fq.gz"
+
+
+   Input read files for mate 2 :
+-rw-r--r--    1 1000     1000       7730511 Oct 17 11:52 input2/HBRRep3_trimmed_2_val_2.fq.gz
+
+   readsCommandsFile:
+exec > "HBRRep3._STARtmp/tmp.fifo.read2"
+echo FILE 0
+zcat      "input2/HBRRep3_trimmed_2_val_2.fq.gz"
+
+Loaded transcript database, nTr=4564
+Loaded exon database, nEx=26155
+Created thread # 1
+Starting to map file # 0
+mate 1:   input1/HBRRep3_trimmed_1_val_1.fq.gz
+mate 2:   input2/HBRRep3_trimmed_2_val_2.fq.gz
+Created thread # 2
+Created thread # 3
+Created thread # 4
+Created thread # 5
+Thread #3 end of input stream, nextChar=-1
+Completed: thread #4
+Completed: thread #5
+Completed: thread #0
+Completed: thread #3
+Completed: thread #2
+Completed: thread #1
+Joined thread # 1
+Joined thread # 2
+Joined thread # 3
+Joined thread # 4
+Joined thread # 5
+ALL DONE!

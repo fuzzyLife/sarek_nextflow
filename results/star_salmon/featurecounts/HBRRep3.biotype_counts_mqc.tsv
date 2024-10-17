@@ -1,0 +1,35 @@
+# id: 'biotype_counts'
+# section_name: 'Biotype Counts'
+# description: "shows reads overlapping genomic features of different biotypes,
+#     counted by <a href='http://bioinf.wehi.edu.au/featureCounts'>featureCounts</a>."
+# plot_type: 'bargraph'
+# anchor: 'featurecounts_biotype'
+# pconfig:
+#     id: "featurecounts_biotype_plot"
+#     title: "featureCounts: Biotypes"
+#     xlab: "# Reads"
+#     cpswitch_counts_label: "Number of Reads"
+snRNA	0
+unprocessed_pseudogene	6
+protein_coding	102736
+processed_pseudogene	86
+rRNA	0
+lincRNA	925
+antisense	574
+processed_transcript	164
+sense_intronic	72
+transcribed_unprocessed_pseudogene	414
+transcribed_processed_pseudogene	0
+IG_V_pseudogene	0
+sense_overlapping	202
+TEC	16
+misc_RNA	228
+miRNA	11
+scaRNA	0
+unitary_pseudogene	22
+snoRNA	0
+IG_V_gene	4
+IG_J_gene	0
+IG_C_gene	0
+IG_C_pseudogene	0
+polymorphic_pseudogene	6

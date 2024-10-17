@@ -1,0 +1,7 @@
+sample,fastq_1,fastq_2,strandedness
+HBRRep1,/home/ash022/rnaseq_nextflow/HBR_Rep1_ERCC-Mix2_Build37-ErccTranscripts-chr22.read1.fastq.gz,/home/ash022/rnaseq_nextflow/HBR_Rep1_ERCC-Mix2_Build37-ErccTranscripts-chr22.read2.fastq.gz,auto
+HBRRep2,/home/ash022/rnaseq_nextflow/HBR_Rep2_ERCC-Mix2_Build37-ErccTranscripts-chr22.read1.fastq.gz,/home/ash022/rnaseq_nextflow/HBR_Rep2_ERCC-Mix2_Build37-ErccTranscripts-chr22.read2.fastq.gz,auto
+HBRRep3,/home/ash022/rnaseq_nextflow/HBR_Rep3_ERCC-Mix2_Build37-ErccTranscripts-chr22.read1.fastq.gz,/home/ash022/rnaseq_nextflow/HBR_Rep3_ERCC-Mix2_Build37-ErccTranscripts-chr22.read2.fastq.gz,auto
+UHRRep1,/home/ash022/rnaseq_nextflow/UHR_Rep1_ERCC-Mix1_Build37-ErccTranscripts-chr22.read1.fastq.gz,/home/ash022/rnaseq_nextflow/UHR_Rep1_ERCC-Mix1_Build37-ErccTranscripts-chr22.read2.fastq.gz,auto
+UHRRep2,/home/ash022/rnaseq_nextflow/UHR_Rep2_ERCC-Mix1_Build37-ErccTranscripts-chr22.read1.fastq.gz,/home/ash022/rnaseq_nextflow/UHR_Rep2_ERCC-Mix1_Build37-ErccTranscripts-chr22.read2.fastq.gz,auto
+UHRRep3,/home/ash022/rnaseq_nextflow/UHR_Rep3_ERCC-Mix1_Build37-ErccTranscripts-chr22.read1.fastq.gz,/home/ash022/rnaseq_nextflow/UHR_Rep3_ERCC-Mix1_Build37-ErccTranscripts-chr22.read2.fastq.gz,auto

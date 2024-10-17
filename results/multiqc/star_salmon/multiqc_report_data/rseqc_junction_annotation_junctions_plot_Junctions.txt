@@ -1,0 +1,7 @@
+Sample	Known Splicing Junctions	Partial Novel Splicing Junctions	Novel Splicing Junctions
+HBRRep1	2965	100	26
+HBRRep2	3127	108	62
+HBRRep3	3030	100	39
+UHRRep1	3443	158	71
+UHRRep2	3123	108	46
+UHRRep3	3244	115	53

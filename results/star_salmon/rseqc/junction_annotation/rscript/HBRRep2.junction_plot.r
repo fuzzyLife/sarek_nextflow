@@ -1,0 +1,8 @@
+pdf("HBRRep2.splice_events.pdf")
+events=c(0.5596817909817311,0.29216093491499173,99.10591713893484)
+pie(events,col=c(2,3,4),init.angle=30,angle=c(60,120,150),density=c(70,70,70),main="splicing events",labels=c("partial_novel 1%","complete_novel 0%","known 99%"))
+dev.off()
+pdf("HBRRep2.splice_junction.pdf")
+junction=c(3.275705186533212,1.8804974218986958,94.84379739156809)
+pie(junction,col=c(2,3,4),init.angle=30,angle=c(60,120,150),density=c(70,70,70),main="splicing junctions",labels=c("partial_novel 3%","complete_novel 2%","known 95%"))
+dev.off()

@@ -1,0 +1,10 @@
+{
+    "salmon_version": "1.10.1",
+    "geneMap": "chr22_with_ERCC92.filtered.gtf",
+    "threads": "6",
+    "libType": "ISR",
+    "targets": "genome.transcripts.fa",
+    "alignments": "UHRRep1.Aligned.toTranscriptome.out.bam",
+    "output": "UHRRep1",
+    "auxDir": "aux_info"
+}
