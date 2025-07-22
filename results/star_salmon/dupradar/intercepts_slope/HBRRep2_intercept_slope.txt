@@ -1,2 +1,0 @@
-HBRRep2 - dupRadar Int (duprate at low read counts): 0.00599499428804956 
-HBRRep2 - dupRadar Sl (progression of the duplication rate): 2.60008028556823

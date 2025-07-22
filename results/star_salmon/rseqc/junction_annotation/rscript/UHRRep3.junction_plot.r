@@ -1,8 +1,0 @@
-pdf("UHRRep3.splice_events.pdf")
-events=c(0.4440240666298836,1.7393132077454612,97.76674286014556)
-pie(events,col=c(2,3,4),init.angle=30,angle=c(60,120,150),density=c(70,70,70),main="splicing events",labels=c("partial_novel 0%","complete_novel 2%","known 98%"))
-dev.off()
-pdf("UHRRep3.splice_junction.pdf")
-junction=c(3.3704572098475967,1.5533411488862836,95.07620164126612)
-pie(junction,col=c(2,3,4),init.angle=30,angle=c(60,120,150),density=c(70,70,70),main="splicing junctions",labels=c("partial_novel 3%","complete_novel 2%","known 95%"))
-dev.off()

@@ -1,2 +1,0 @@
-UHRRep2 - dupRadar Int (duprate at low read counts): 0.00210709248184672 
-UHRRep2 - dupRadar Sl (progression of the duplication rate): 3.91634319027092
