@@ -1,0 +1,7 @@
+Sample	stop_gained	frameshift_variant	inframe_insertion	missense_variant	stop_retained_variant	synonymous_variant	coding_sequence_variant	protein_altering_variant
+HBRRep1.haplotypecaller.filtered_VEP.ann	2.0	104.0	38.0	54.0	3.0	91.0	163.0	nan
+HBRRep2.haplotypecaller.filtered_VEP.ann	9.0	104.0	35.0	64.0	2.0	85.0	162.0	2.0
+HBRRep3.haplotypecaller.filtered_VEP.ann	6.0	108.0	44.0	52.0	2.0	86.0	161.0	nan
+UHRRep1.haplotypecaller.filtered_VEP.ann	8.0	104.0	46.0	90.0	3.0	120.0	178.0	nan
+UHRRep2.haplotypecaller.filtered_VEP.ann	7.0	110.0	48.0	69.0	3.0	91.0	165.0	nan
+UHRRep3.haplotypecaller.filtered_VEP.ann	7.0	106.0	48.0	79.0	2.0	95.0	169.0	nan

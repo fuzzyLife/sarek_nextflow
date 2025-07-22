@@ -1,0 +1,7 @@
+patient,sample,variantcaller,vcf
+HBR,HBRRep1,haplotypecaller,results/variant_calling/haplotypecaller/HBRRep1/HBRRep1.haplotypecaller.filtered.vcf.gz
+HBR,HBRRep2,haplotypecaller,results/variant_calling/haplotypecaller/HBRRep2/HBRRep2.haplotypecaller.filtered.vcf.gz
+HBR,HBRRep3,haplotypecaller,results/variant_calling/haplotypecaller/HBRRep3/HBRRep3.haplotypecaller.filtered.vcf.gz
+UHR,UHRRep1,haplotypecaller,results/variant_calling/haplotypecaller/UHRRep1/UHRRep1.haplotypecaller.filtered.vcf.gz
+UHR,UHRRep2,haplotypecaller,results/variant_calling/haplotypecaller/UHRRep2/UHRRep2.haplotypecaller.filtered.vcf.gz
+UHR,UHRRep3,haplotypecaller,results/variant_calling/haplotypecaller/UHRRep3/UHRRep3.haplotypecaller.filtered.vcf.gz

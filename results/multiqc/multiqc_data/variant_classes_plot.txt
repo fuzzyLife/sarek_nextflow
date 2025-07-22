@@ -1,0 +1,7 @@
+Sample	sequence_alteration	deletion	insertion	SNV
+HBRRep1.haplotypecaller.filtered_VEP.ann	7.0	379.0	794.0	2102.0
+HBRRep2.haplotypecaller.filtered_VEP.ann	11.0	403.0	823.0	2513.0
+HBRRep3.haplotypecaller.filtered_VEP.ann	7.0	405.0	805.0	2362.0
+UHRRep1.haplotypecaller.filtered_VEP.ann	6.0	465.0	911.0	2629.0
+UHRRep2.haplotypecaller.filtered_VEP.ann	8.0	430.0	844.0	2500.0
+UHRRep3.haplotypecaller.filtered_VEP.ann	6.0	456.0	929.0	2540.0

@@ -1,0 +1,57 @@
+Module	Section	Sample Name	Source
+FastQC (raw)	all_sections	UHRRep1_1	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/13/UHRRep1_1_fastqc.zip
+FastQC (raw)	all_sections	HBRRep3_2	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/4/HBRRep3_2_fastqc.zip
+FastQC (raw)	all_sections	HBRRep1_2	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/10/HBRRep1_2_fastqc.zip
+FastQC (raw)	all_sections	UHRRep1_2	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/14/UHRRep1_2_fastqc.zip
+FastQC (raw)	all_sections	HBRRep2_1	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/11/HBRRep2_1_fastqc.zip
+FastQC (raw)	all_sections	HBRRep1_1	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/9/HBRRep1_1_fastqc.zip
+FastQC (raw)	all_sections	UHRRep3_1	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/5/UHRRep3_1_fastqc.zip
+FastQC (raw)	all_sections	UHRRep3_2	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/6/UHRRep3_2_fastqc.zip
+FastQC (raw)	all_sections	HBRRep3_1	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/3/HBRRep3_1_fastqc.zip
+FastQC (raw)	all_sections	UHRRep2_2	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/8/UHRRep2_2_fastqc.zip
+FastQC (raw)	all_sections	UHRRep2_1	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/7/UHRRep2_1_fastqc.zip
+FastQC (raw)	all_sections	HBRRep2_2	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/12/HBRRep2_2_fastqc.zip
+FastP (Read preprocessing)	all_sections	UHRRep1	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/24/UHRRep1.fastp.json
+FastP (Read preprocessing)	all_sections	HBRRep3	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/25/HBRRep3.fastp.json
+FastP (Read preprocessing)	all_sections	UHRRep2	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/23/UHRRep2.fastp.json
+FastP (Read preprocessing)	all_sections	HBRRep1	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/26/HBRRep1.fastp.json
+FastP (Read preprocessing)	all_sections	UHRRep3	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/21/UHRRep3.fastp.json
+FastP (Read preprocessing)	all_sections	HBRRep2	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/22/HBRRep2.fastp.json
+GATK4 MarkDuplicates	DuplicationMetrics	UHRRep3.md	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/28/UHRRep3.md.cram.metrics
+GATK4 MarkDuplicates	DuplicationMetrics	UHRRep1.md	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/33/UHRRep1.md.cram.metrics
+GATK4 MarkDuplicates	DuplicationMetrics	HBRRep1.md	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/38/HBRRep1.md.cram.metrics
+GATK4 MarkDuplicates	DuplicationMetrics	HBRRep3.md	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/37/HBRRep3.md.cram.metrics
+GATK4 MarkDuplicates	DuplicationMetrics	UHRRep2.md	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/32/UHRRep2.md.cram.metrics
+GATK4 MarkDuplicates	DuplicationMetrics	HBRRep2.md	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/27/HBRRep2.md.cram.metrics
+Samtools Flagstat	stats	UHRRep1.md	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/40/UHRRep1.md.cram.stats
+Samtools Flagstat	stats	UHRRep2.md	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/39/UHRRep2.md.cram.stats
+Samtools Flagstat	stats	UHRRep3.md	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/29/UHRRep3.md.cram.stats
+Samtools Flagstat	stats	HBRRep3.md	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/46/HBRRep3.md.cram.stats
+Samtools Flagstat	stats	HBRRep1.md	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/45/HBRRep1.md.cram.stats
+Samtools Flagstat	stats	HBRRep2.md	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/36/HBRRep2.md.cram.stats
+Mosdepth	genome_results	UHRRep2.md	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/43/UHRRep2.md.mosdepth.region.dist.txt
+Mosdepth	genome_results	UHRRep3.md	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/35/UHRRep3.md.mosdepth.region.dist.txt
+Mosdepth	genome_results	HBRRep3.md	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/48/HBRRep3.md.mosdepth.region.dist.txt
+Mosdepth	genome_results	HBRRep1.md	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/49/HBRRep1.md.mosdepth.region.dist.txt
+Mosdepth	genome_results	UHRRep1.md	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/41/UHRRep1.md.mosdepth.region.dist.txt
+Mosdepth	genome_results	HBRRep2.md	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/31/HBRRep2.md.mosdepth.region.dist.txt
+GATK4 BQSR	base_recalibrator	HBRRep1.recal.table	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/58/HBRRep1.recal.table
+GATK4 BQSR	base_recalibrator	HBRRep3.recal.table	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/57/HBRRep3.recal.table
+GATK4 BQSR	base_recalibrator	HBRRep2.recal.table	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/53/HBRRep2.recal.table
+GATK4 BQSR	base_recalibrator	UHRRep1.recal.table	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/56/UHRRep1.recal.table
+GATK4 BQSR	base_recalibrator	UHRRep3.recal.table	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/54/UHRRep3.recal.table
+GATK4 BQSR	base_recalibrator	UHRRep2.recal.table	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/55/UHRRep2.recal.table
+Bcftools	stats	UHRRep2.haplotypecaller.filtered	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/64/UHRRep2.haplotypecaller.filtered.bcftools_stats.txt
+Bcftools	stats	UHRRep1.haplotypecaller.filtered	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/65/UHRRep1.haplotypecaller.filtered.bcftools_stats.txt
+Bcftools	stats	HBRRep3.haplotypecaller.filtered	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/66/HBRRep3.haplotypecaller.filtered.bcftools_stats.txt
+Bcftools	stats	HBRRep2.haplotypecaller.filtered	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/62/HBRRep2.haplotypecaller.filtered.bcftools_stats.txt
+Bcftools	stats	HBRRep1.haplotypecaller.filtered	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/67/HBRRep1.haplotypecaller.filtered.bcftools_stats.txt
+Bcftools	stats	UHRRep3.haplotypecaller.filtered	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/63/UHRRep3.haplotypecaller.filtered.bcftools_stats.txt
+Vcftools	all_sections	TsTv by counts	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/81/HBRRep2.haplotypecaller.filtered.TsTv.count
+Vcftools	all_sections	TsTv by quality	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/76/UHRRep3.haplotypecaller.filtered.TsTv.qual
+VEP	all_sections	HBRRep1.haplotypecaller.filtered_VEP.ann	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/68/HBRRep1.haplotypecaller.filtered_VEP.ann.summary.html
+VEP	all_sections	HBRRep2.haplotypecaller.filtered_VEP.ann	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/51/HBRRep2.haplotypecaller.filtered_VEP.ann.summary.html
+VEP	all_sections	UHRRep1.haplotypecaller.filtered_VEP.ann	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/60/UHRRep1.haplotypecaller.filtered_VEP.ann.summary.html
+VEP	all_sections	UHRRep2.haplotypecaller.filtered_VEP.ann	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/59/UHRRep2.haplotypecaller.filtered_VEP.ann.summary.html
+VEP	all_sections	UHRRep3.haplotypecaller.filtered_VEP.ann	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/52/UHRRep3.haplotypecaller.filtered_VEP.ann.summary.html
+VEP	all_sections	HBRRep3.haplotypecaller.filtered_VEP.ann	/home/ash022/sarek/work/f6/6e0ed7f882f36f7af884e461cb25c8/61/HBRRep3.haplotypecaller.filtered_VEP.ann.summary.html

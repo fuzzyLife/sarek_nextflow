@@ -1,0 +1,7 @@
+patient,sex,status,sample,cram,crai
+HBR,NA,0,HBRRep1,results/preprocessing/recalibrated/HBRRep1/HBRRep1.recal.cram,results/preprocessing/recalibrated/HBRRep1/HBRRep1.recal.cram.crai
+HBR,NA,0,HBRRep2,results/preprocessing/recalibrated/HBRRep2/HBRRep2.recal.cram,results/preprocessing/recalibrated/HBRRep2/HBRRep2.recal.cram.crai
+HBR,NA,0,HBRRep3,results/preprocessing/recalibrated/HBRRep3/HBRRep3.recal.cram,results/preprocessing/recalibrated/HBRRep3/HBRRep3.recal.cram.crai
+UHR,NA,0,UHRRep1,results/preprocessing/recalibrated/UHRRep1/UHRRep1.recal.cram,results/preprocessing/recalibrated/UHRRep1/UHRRep1.recal.cram.crai
+UHR,NA,0,UHRRep2,results/preprocessing/recalibrated/UHRRep2/UHRRep2.recal.cram,results/preprocessing/recalibrated/UHRRep2/UHRRep2.recal.cram.crai
+UHR,NA,0,UHRRep3,results/preprocessing/recalibrated/UHRRep3/UHRRep3.recal.cram,results/preprocessing/recalibrated/UHRRep3/UHRRep3.recal.cram.crai

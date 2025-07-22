@@ -1,0 +1,7 @@
+Sample	Benign	Possibly damaging	Probably damaging	Unknown
+HBRRep1.haplotypecaller.filtered_VEP.ann	42.0	4.0	6.0	nan
+HBRRep2.haplotypecaller.filtered_VEP.ann	49.0	6.0	5.0	2.0
+HBRRep3.haplotypecaller.filtered_VEP.ann	44.0	1.0	5.0	nan
+UHRRep1.haplotypecaller.filtered_VEP.ann	68.0	9.0	10.0	nan
+UHRRep2.haplotypecaller.filtered_VEP.ann	54.0	6.0	7.0	nan
+UHRRep3.haplotypecaller.filtered_VEP.ann	64.0	6.0	6.0	nan

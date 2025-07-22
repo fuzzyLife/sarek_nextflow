@@ -1,0 +1,7 @@
+Sample	Unique Pairs	Unique Unpaired	Duplicate Pairs Optical	Duplicate Pairs Nonoptical	Unmapped
+HBRRep1.md	141594.0	0.0	0.0	9282.0	84172.0
+HBRRep2.md	171328.0	0.0	2.0	13434.0	102058.0
+HBRRep3.md	154450.0	0.0	0.0	10708.0	91804.0
+UHRRep1.md	236862.0	1.0	2.0	27050.0	182373.0
+UHRRep2.md	187498.0	0.0	4.0	18974.0	112008.0
+UHRRep3.md	200102.0	1.0	0.0	23822.0	140437.0

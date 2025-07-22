@@ -1,0 +1,21 @@
+Sample	bcftools	bwa	samtools	gatk4	ensemblvep	fastp	fastqc	mosdepth	tabix	vcftools	nf-core/sarek	Nextflow
+BCFTOOLS_STATS	1.2											
+BWAMEM1_MEM		0.7.18-r1243-dirty	1.2									
+CNNSCOREVARIANTS				4.5.0.0								
+ENSEMBLVEP_VEP					113.0							
+FASTP						0.23.4						
+FASTQC							0.12.1					
+FILTERVARIANTTRANCHES				4.5.0.0								
+GATK4 MarkDuplicates			1.19.2	4.5.0.0								
+GATK4_APPLYBQSR				4.5.0.0								
+GATK4_BASERECALIBRATOR				4.5.0.0								
+GATK4_GATHERBQSRREPORTS				4.5.0.0								
+GATK4_HAPLOTYPECALLER				4.5.0.0								
+INDEX_CRAM			1.21									
+MERGE_CRAM			1.21									
+MERGE_HAPLOTYPECALLER				4.5.0.0								
+Mosdepth								0.3.8				
+SAMTOOLS_STATS			1.21									
+TABIX_TABIX									1.2			
+VCFTOOLS_TSTV_COUNT										0.1.16		
+Workflow											v3.5.1-gb173733	25.04.6

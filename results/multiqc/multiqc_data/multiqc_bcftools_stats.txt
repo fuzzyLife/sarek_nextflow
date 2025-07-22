@@ -1,0 +1,7 @@
+Sample	number_of_samples	number_of_records	number_of_no-ALTs	number_of_SNPs	number_of_MNPs	number_of_indels	number_of_others	number_of_multiallelic_sites	number_of_multiallelic_SNP_sites	ts	tv	tstv	ts_1st_ALT	tv_1st_ALT	tstv_1st_ALT	substitution_type_A>C	substitution_type_A>G	substitution_type_A>T	substitution_type_C>A	substitution_type_C>G	substitution_type_C>T	substitution_type_G>A	substitution_type_G>C	substitution_type_G>T	substitution_type_T>A	substitution_type_T>C	substitution_type_T>G
+HBRRep1.haplotypecaller.filtered	1	3282	0	2103	0	1179	0	8	1	1509	595	2.54	1509	593	2.54	64	460	66	63	90	293	315	100	82	59	441	71
+HBRRep2.haplotypecaller.filtered	1	3750	0	2514	0	1236	0	11	0	1826	688	2.65	1825	688	2.65	89	584	81	74	102	341	368	118	85	57	533	82
+HBRRep3.haplotypecaller.filtered	1	3579	0	2363	0	1216	0	8	1	1683	681	2.47	1682	680	2.47	87	533	78	70	117	326	338	111	76	74	486	68
+UHRRep1.haplotypecaller.filtered	1	4011	0	2631	0	1380	0	6	0	1864	767	2.43	1863	766	2.43	87	550	95	83	122	409	416	137	83	70	489	90
+UHRRep2.haplotypecaller.filtered	1	3782	0	2501	0	1281	0	9	0	1741	760	2.29	1740	760	2.29	90	512	88	62	119	378	359	126	101	86	492	88
+UHRRep3.haplotypecaller.filtered	1	3931	0	2543	0	1388	0	6	0	1803	740	2.44	1800	740	2.43	91	552	90	81	107	353	401	109	92	76	497	94

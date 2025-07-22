@@ -1,0 +1,7 @@
+Sample	Overlapped regulatory features	Overlapped transcripts	Overlapped genes	Existing variants	Novel variants	Variants filtered out	Variants processed	Lines of input read
+HBRRep1.haplotypecaller.filtered_VEP.ann	156	862	806	3282	0	0	3282	3282
+HBRRep2.haplotypecaller.filtered_VEP.ann	213	963	905	3750	0	0	3750	3750
+HBRRep3.haplotypecaller.filtered_VEP.ann	189	934	879	3579	0	0	3579	3579
+UHRRep1.haplotypecaller.filtered_VEP.ann	208	1003	949	4011	0	0	4011	4011
+UHRRep2.haplotypecaller.filtered_VEP.ann	199	1094	1031	3782	0	0	3782	3782
+UHRRep3.haplotypecaller.filtered_VEP.ann	204	1016	959	3931	0	0	3931	3931

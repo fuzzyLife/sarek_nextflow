@@ -1,0 +1,7 @@
+Sample	0
+HBRRep1.md	100.0
+HBRRep2.md	100.0
+HBRRep3.md	100.0
+UHRRep1.md	100.0
+UHRRep2.md	100.0
+UHRRep3.md	100.0

@@ -1,0 +1,7 @@
+Sample	0	1
+HBRRep1.haplotypecaller.filtered.TsTv.count	(0.0, nan)	(1.0, 2.28205)
+HBRRep2.haplotypecaller.filtered.TsTv.count	(0.0, nan)	(1.0, 2.36816)
+HBRRep3.haplotypecaller.filtered.TsTv.count	(0.0, nan)	(1.0, 2.10256)
+UHRRep1.haplotypecaller.filtered.TsTv.count	(0.0, nan)	(1.0, 2.49282)
+UHRRep2.haplotypecaller.filtered.TsTv.count	(0.0, nan)	(1.0, 2.04094)
+UHRRep3.haplotypecaller.filtered.TsTv.count	(0.0, nan)	(1.0, 2.60112)
